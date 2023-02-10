@@ -11,11 +11,11 @@ We analyzed behavioral data for the customers of a car insurance company. The go
 
 ## Key Visual Observations
 
-![DD](DD.png)
+![VO](VO.png)
 
 Above we see that over 80% of customers who have never made an insurance claim owned their vehicle, while less than half have made a claim - supporting evidence that those who lease their vehicles are more likely to file claims with their insurance company.
 
-
+![SP](SP.png)
 
 From the above we can see there is a positive correlation between the number of past accidents and speeding violations. This would indicate that we should determine both for each potential customer before deciding to grant any coverage.
 
