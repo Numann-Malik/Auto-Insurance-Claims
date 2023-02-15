@@ -24,6 +24,6 @@ From the above we can see there is a positive correlation between the number of 
 Metrics TBA.
 
 ## Recommendations
-- Recommendation 1 TBA
-- Recommendation 2 TBA
-- Recommendation 3 TBA
+- The model with the best recall score is our tuned LightGBM with 79%, i.e. 79% of customers who file claims will have been predicted to correctly, with test accuracy of 86.2%.
+- We also find relatively high precision (which minimizes false positives). This is interpreted as accurately predicting when customers do not file a claim. This reassures us that the insurance company can reliably pick customers who will continue to pay premiums, while not costing the insurance company more money with claims.
+- Finally, the insurance company should scrutinize potential customers more who lease (or who otherwise don't own) their vehicles, as well as those who have a history of speeding violations and accidents.
