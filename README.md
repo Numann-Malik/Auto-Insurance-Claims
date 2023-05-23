@@ -24,11 +24,13 @@ We evaluated each of the above models with multiple metrics
 
 ## Key Visual Observations
 
-![VO](VO.png)
+<p align="center">
+<img src="VO.png" width=500px>
 
 Above we see that over 80% of customers who have never made an insurance claim owned their vehicle, while less than half have made a claim - supporting evidence that those who lease their vehicles are more likely to file claims with their insurance company.
 
-![SP](SP.png)
+<p align="center">
+<img src="SP.png" width=500px>
 
 From the above we can see there is a positive correlation between the number of past accidents and speeding violations. This would indicate that we should determine both for each potential customer before deciding to grant any coverage.
 
@@ -38,9 +40,11 @@ From the above we can see there is a positive correlation between the number of 
 - The reason is that it will cost more money to pay out for claims that were not accurately predicted.
 - Therefore, we mostly we care about the recall score.
 
-![CR](CR.png)
+<p align="center">
+<img src="CR.png" width=500px>
 
-![CM](CM.png)
+<p align="center">
+<img src="CM.png" width=500px>
 
 ## Recommendations
 - The model with the best recall score is our tuned LightGBM with 79%, i.e. 79% of customers who file claims will have been predicted to correctly, with test accuracy of 86.2%.
